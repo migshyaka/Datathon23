@@ -37,7 +37,6 @@ kiwisolver
 MarkupSafe
 matplotlib
 matplotlib-inline
-mrsr
 nest-asyncio
 numpy
 openpyxl
@@ -66,6 +65,7 @@ scikit-learn
 scikit-mlm
 scipy
 six
+mrsr
 stack-data
 tabulate
 tenacity
