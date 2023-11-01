@@ -31,7 +31,7 @@ app = dash.Dash(
     title=APP_TITLE,
     use_pages=True,  # New in Dash 2.7 - Allows us to register pages
 )
-
+server = app.server
 # To use if you're planning on using Google Analytics
 app.index_string = f'''
 <!DOCTYPE html>
@@ -72,4 +72,4 @@ app.layout = dcc.Loading(  # <- Wrap App with Loading Component
 server = app.server
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
