@@ -62,8 +62,6 @@ pyzmq
 requests
 retrying
 scikit-learn
-
-scikit-mlm
 scipy
 six
 stack-data
