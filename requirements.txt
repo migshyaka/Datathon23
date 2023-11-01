@@ -53,7 +53,7 @@ prompt-toolkit
 psutil
 ptyprocess
 pure-eval
-pydantic
+pydantic==1.8.2
 Pygments
 pyparsing
 python-dateutil
